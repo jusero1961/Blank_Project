@@ -98,6 +98,32 @@
   )
 
 
+  (symbol (lib_id "Device:C_Small") (at 115.57 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1ffb46f4-6ff6-49c9-9189-a1894542600c)
+    (property "Reference" "C6" (at 118.11 142.8813 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10uF" (at 118.11 145.4213 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 115.57 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 115.57 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5289285-b777-4aed-9076-261bba7fab58))
+    (pin "2" (uuid ec724cc5-4751-483c-a72e-a33a5e09f8af))
+    (instances
+      (project "Blank_Project"
+        (path "/e41a8201-ef4d-4718-89ef-bc4031c44cb0"
+          (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 128.27 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2682b6b7-2a0b-44e7-8d4a-f414f299ecbd)
