@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSC1212Y5PAGT
+D 8051 CPU with 32kB Memory, 24-Bit ADC, and Quad 16-Bit DACs
+K
+F http://www.ti.com/lit/gpn/msc1212y5
+$ENDCMP
+#
+#End Doc Library
