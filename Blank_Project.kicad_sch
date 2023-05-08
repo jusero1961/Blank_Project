@@ -387,6 +387,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 116.84 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e72c7655-6f23-4000-b1f7-2737633ab32c)
+    (property "Reference" "R7" (at 119.38 131.445 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "500R" (at 119.38 133.985 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 115.062 132.08 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.84 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6835dc79-2ed6-471b-a014-d0c4343ebf24))
+    (pin "2" (uuid 5921e2cd-48dd-4696-ac7b-a086028ae039))
+    (instances
+      (project "Blank_Project"
+        (path "/e41a8201-ef4d-4718-89ef-bc4031c44cb0"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
